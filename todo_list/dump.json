@@ -16,14 +16,5 @@
         "status": "new",
         "date_deadline": "2022-01-08"
     }
-},
-{
-    "model": "webapp.task",
-    "pk": 3,
-    "fields": {
-        "task": "hw last",
-        "status": "done",
-        "date_deadline": "2021-12-20"
-    }
 }
 ]
