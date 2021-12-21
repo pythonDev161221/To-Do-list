@@ -7,7 +7,9 @@
 <body>
 {% for task in tasks %}
     <p>
-    {{ task.task }}, {{ task.status }}: {{ task.date_deadline }}
+        <a href="/task?pk={{ task.pk }}">
+            {{ task.task }}, {{ task.status }}: {{ task.date_deadline }}
+        </a>
     </p>
 
     
