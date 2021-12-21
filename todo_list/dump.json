@@ -1,0 +1,29 @@
+[
+{
+    "model": "webapp.task",
+    "pk": 1,
+    "fields": {
+        "task": "do hw",
+        "status": "new",
+        "date_deadline": "2021-12-23"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 2,
+    "fields": {
+        "task": "prepare to exam",
+        "status": "new",
+        "date_deadline": "2022-01-08"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 3,
+    "fields": {
+        "task": "hw last",
+        "status": "done",
+        "date_deadline": "2021-12-20"
+    }
+}
+]
