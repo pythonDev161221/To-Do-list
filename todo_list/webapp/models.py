@@ -16,4 +16,5 @@ class Task(models.Model):
 
     class Meta:
         ordering = ['date_deadline']
-        verbose_name = "Задание"
+        verbose_name = "Задача"
+        verbose_name_plural = "Задачи"
