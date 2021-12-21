@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from webapp.models import Task
 
@@ -9,14 +9,13 @@ def task_view(request):
 
 
 def detail_view(request):
-    if request.method == "GET":
-        pk = request.GET.get("pk")
-        task = Task.objects.get(pk=pk)
-        return render(request, 'detail.html', {'task': task})
-    elif request.method == "POST":
-        # print('asdfasdfasdf')
-        # pk = request.POST.get("pk")
+    pk = request.GET.get("pk")
+    task = Task.objects.get(pk=pk)
+    return render(request, 'detail.html', {'task': task})
 
-        # task = Task.objects.get(pk=pk)
-        # task.delete()
-        return render(request, 'index.html')
+
+def delete_view(request):
+    pk = request.GET.get("pk")
+    task = Task.objects.get(pk=pk)
+    task.delete()
+    return task_view(request)

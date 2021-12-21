@@ -10,10 +10,6 @@
 <p>{{ task.date_deadline }}</p>
 <br>
 <p><a href="/">to_homepage</a></p>
-<form action="/" method="get">
-    {% csrf_token %}
-    {{ task.delete }}
-    <input type="submit" value="delete">
-</form>
+<a href="/delete?pk={{ task.pk }}">delete</a>
 </body>
 </html>
