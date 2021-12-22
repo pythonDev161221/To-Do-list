@@ -24,10 +24,15 @@ def delete_view(request):
 def create_view(request):
     if request.method == 'GET':
         select_status = Task.status_choices
-        # print(select_status)
-        # context = {}
-        # for i in select_status:
-        #     context[i[0]] = i[1]
-        # print(context)
         context = {'selection': select_status}
         return render(request, 'create.html', context)
+    else:
+        task_text = request.POST.get('task')
+        print(task_text)
+        status = request.POST.get('status')
+        date_deadline = request.POST.get('date_deadline')
+        print(date_deadline)
+        task = Task(task=task_text, status=status, date_deadline=date_deadline)
+        print(task)
+        task.save()
+        return task_view(request)
