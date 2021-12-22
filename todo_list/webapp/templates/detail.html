@@ -5,12 +5,16 @@
     <title>Title</title>
 </head>
 <body>
+
 <h3>Task</h3>
-<p>{{ task.task }}</p>
-<p>{{ task.status }}</p>
-<p>{{ task.date_deadline }}</p>
-<br>
-<p><a href="/">to_homepage</a></p>
-<a href="/delete?pk={{ task.pk }}">delete</a>
+<p><label for="task">task: </label>
+<u>{{ task.task }}</u></p>
+<p><label for="status">status: </label>
+<u>{{ task.status }}</u></p>
+<p><label for="finish date">finish date: </label>
+<u>{{ task.date_deadline }}</u></p>
+<br/>
+<p><a href="/">Back</a></p>
+<a href="/delete?pk={{ task.pk }}">Delete</a>
 </body>
 </html>
