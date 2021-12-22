@@ -1,0 +1,83 @@
+[
+{
+    "model": "webapp.task",
+    "pk": 1,
+    "fields": {
+        "task": "do hw",
+        "status": "new",
+        "date_deadline": "2021-12-23"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 2,
+    "fields": {
+        "task": "prepare to exam",
+        "status": "new",
+        "date_deadline": "2022-01-08"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 11,
+    "fields": {
+        "task": "drgsdfgs",
+        "status": "new",
+        "date_deadline": "2021-12-24"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 12,
+    "fields": {
+        "task": "sdfgsdgf gsdfg s",
+        "status": "new",
+        "date_deadline": "2021-12-30"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 14,
+    "fields": {
+        "task": "sdfgsdfg",
+        "status": "in_progress",
+        "date_deadline": "2021-12-24"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 15,
+    "fields": {
+        "task": "sdfgsdgsd fg sfd",
+        "status": "in_progress",
+        "date_deadline": "2021-12-31"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 16,
+    "fields": {
+        "task": "dfgsdfg",
+        "status": "new",
+        "date_deadline": "2021-12-30"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 17,
+    "fields": {
+        "task": "fthrdthd",
+        "status": "new",
+        "date_deadline": "2021-12-30"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 18,
+    "fields": {
+        "task": "dsaf",
+        "status": "done",
+        "date_deadline": "2021-12-24"
+    }
+}
+]
