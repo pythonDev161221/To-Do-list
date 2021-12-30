@@ -13,6 +13,10 @@
 <u>{{ task.status }}</u></p>
 <p><label for="finish date">finish date: </label>
 <u>{{ task.date_deadline }}</u></p>
+<p>
+    <label for="text">task description: </label>
+    <u>{{ task.text }}</u>
+</p>
 <br/>
 <p><a href="/">Back</a></p>
 <a href="/delete?pk={{ task.pk }}">Delete</a>
