@@ -30,6 +30,7 @@ def create_view(request):
         task_text = request.POST.get('task')
         status = request.POST.get('status')
         date_deadline = request.POST.get('date_deadline')
-        task = Task(task=task_text, status=status, date_deadline=date_deadline)
+        text = request.POST.get('text')
+        task = Task(task=task_text, status=status, date_deadline=date_deadline, text=text)
         task.save()
         return task_view(request)
