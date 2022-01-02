@@ -8,8 +8,8 @@ def task_view(request):
     return render(request, 'index.html', {"tasks": tasks})
 
 
-def detail_view(request):
-    pk = request.GET.get("pk")
+def detail_view(request, pk):
+    # pk = request.GET.get("pk")
     task = Task.objects.get(pk=pk)
     return render(request, 'detail.html', {'task': task})
 

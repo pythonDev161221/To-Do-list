@@ -8,7 +8,7 @@
 <h3>Tasks list</h3>
 {% for task in tasks %}
     <p>
-        <a href="/task?pk={{ task.pk }}">
+        <a href="{% url "task_detail" task.pk %}">
             {{ task.task }}, {{ task.get_status_display }}: {{ task.date_deadline }}
         </a>
     </p>
