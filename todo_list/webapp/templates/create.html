@@ -6,7 +6,7 @@
 </head>
 <body>
 <h3>Create task</h3>
-<form action="" method="post">
+<form action="{% url "task_create" %}" method="post">
     {% csrf_token %}
     <p>
        task: <input type="text" name="task">
