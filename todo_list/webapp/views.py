@@ -14,8 +14,8 @@ def detail_view(request):
     return render(request, 'detail.html', {'task': task})
 
 
-def delete_view(request):
-    pk = request.GET.get("pk")
+def delete_view(request, pk):
+    # pk = request.GET.get("pk")
     task = Task.objects.get(pk=pk)
     task.delete()
     return task_view(request)

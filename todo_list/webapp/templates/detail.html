@@ -19,6 +19,6 @@
 </p>
 <br/>
 <p><a href="{% url "index" %}">Back</a></p>
-<a href="/delete?pk={{ task.pk }}">Delete</a>
+<a href="{% url "delete" task.pk %}">Delete</a>
 </body>
 </html>
