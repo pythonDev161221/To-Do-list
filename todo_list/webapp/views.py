@@ -1,7 +1,6 @@
-import datetime
-
 from django.shortcuts import render, redirect, get_object_or_404
-from django.http import HttpResponseNotFound, Http404
+from django.http import HttpResponseNotFound
+from django.urls import reverse
 
 from webapp.models import Task
 
@@ -37,3 +36,4 @@ def create_view(request):
         task = Task(task=task_text, status=status, date_deadline=date_deadline, text=text)
         task.save()
         return redirect("index")
+
