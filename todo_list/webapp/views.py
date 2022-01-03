@@ -32,4 +32,4 @@ def create_view(request):
         text = request.POST.get('text')
         task = Task(task=task_text, status=status, date_deadline=date_deadline, text=text)
         task.save()
-        return task_view(request)
+        return redirect("index")
