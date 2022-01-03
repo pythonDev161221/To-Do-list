@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block title %}Task details{% endblock %}
+
 {% block nav %}
 <li class="nav-item">
     <a href="{% url "delete" task.pk %}" class="nav-link">Delete</a>
