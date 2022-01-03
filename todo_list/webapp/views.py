@@ -9,7 +9,6 @@ def task_view(request):
 
 
 def detail_view(request, pk):
-    # pk = request.GET.get("pk")
     task = Task.objects.get(pk=pk)
     return render(request, 'detail.html', {'task': task})
 
