@@ -98,5 +98,15 @@
         "text": "888888 88888888",
         "date_deadline": "2022-01-03"
     }
+},
+{
+    "model": "webapp.task",
+    "pk": 37,
+    "fields": {
+        "task": "999999",
+        "status": "new",
+        "text": "99999",
+        "date_deadline": "2022-01-03"
+    }
 }
 ]
