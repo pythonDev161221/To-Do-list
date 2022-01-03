@@ -15,10 +15,9 @@ def detail_view(request, pk):
 
 
 def delete_view(request, pk):
-    # pk = request.GET.get("pk")
     task = Task.objects.get(pk=pk)
     task.delete()
-    return task_view(request)
+    return redirect("index")
 
 
 def create_view(request):
