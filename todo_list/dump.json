@@ -5,7 +5,7 @@
     "fields": {
         "task": "do hw",
         "status": "new",
-        "text": null,
+        "text": "Сделать домашнюю работу",
         "date_deadline": "2021-12-23"
     }
 },
@@ -15,78 +15,58 @@
     "fields": {
         "task": "prepare to exam",
         "status": "new",
-        "text": null,
+        "text": "Подготовиться к экзамену",
         "date_deadline": "2022-01-08"
     }
 },
 {
     "model": "webapp.task",
-    "pk": 11,
+    "pk": 22,
     "fields": {
-        "task": "drgsdfgs",
+        "task": "1111111111",
         "status": "new",
-        "text": null,
-        "date_deadline": "2021-12-24"
+        "text": "11111111 11111 111111",
+        "date_deadline": "2022-01-01"
     }
 },
 {
     "model": "webapp.task",
-    "pk": 12,
+    "pk": 24,
     "fields": {
-        "task": "sdfgsdgf gsdfg s",
-        "status": "new",
-        "text": null,
-        "date_deadline": "2021-12-30"
-    }
-},
-{
-    "model": "webapp.task",
-    "pk": 14,
-    "fields": {
-        "task": "sdfgsdfg",
+        "task": "2222222",
         "status": "in_progress",
-        "text": null,
-        "date_deadline": "2021-12-24"
+        "text": "222222222",
+        "date_deadline": "2022-01-01"
     }
 },
 {
     "model": "webapp.task",
-    "pk": 15,
+    "pk": 25,
     "fields": {
-        "task": "sdfgsdgsd fg sfd",
+        "task": "333333333",
         "status": "in_progress",
-        "text": null,
-        "date_deadline": "2021-12-31"
+        "text": "33333333 333333",
+        "date_deadline": "2022-01-04"
     }
 },
 {
     "model": "webapp.task",
-    "pk": 17,
+    "pk": 26,
     "fields": {
-        "task": "fthrdthd",
-        "status": "new",
-        "text": null,
-        "date_deadline": "2021-12-30"
-    }
-},
-{
-    "model": "webapp.task",
-    "pk": 18,
-    "fields": {
-        "task": "dsaf",
+        "task": "4444",
         "status": "done",
-        "text": null,
-        "date_deadline": "2021-12-24"
+        "text": "44444444",
+        "date_deadline": "2022-01-01"
     }
 },
 {
     "model": "webapp.task",
-    "pk": 19,
+    "pk": 27,
     "fields": {
-        "task": "sdvdfg",
+        "task": "555555",
         "status": "new",
-        "text": null,
-        "date_deadline": "2021-12-30"
+        "text": "555 5 5 5 555  ",
+        "date_deadline": "2022-01-03"
     }
 }
 ]
