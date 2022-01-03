@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
+{% block content %}
 <h3>Task</h3>
 <p><label for="task">task: </label>
 <u>{{ task.task }}</u></p>
@@ -20,5 +15,4 @@
 <br/>
 <p><a href="{% url "index" %}">Back</a></p>
 <a href="{% url "delete" task.pk %}">Delete</a>
-</body>
-</html>
+{% endblock %}
