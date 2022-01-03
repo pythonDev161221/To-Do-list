@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block nav %}
+<li class="nav-item">
+    <a href="{% url "delete" task.pk %}" class="nav-link">Delete</a>
+</li>
+{% endblock %}
+
 {% block content %}
 <h3>Task</h3>
 <p><label for="task">task: </label>
@@ -12,7 +18,4 @@
     <label for="text">task description: </label>
     <u>{{ task.text }}</u>
 </p>
-<br/>
-<p><a href="{% url "index" %}">Back</a></p>
-<a href="{% url "delete" task.pk %}">Delete</a>
 {% endblock %}
