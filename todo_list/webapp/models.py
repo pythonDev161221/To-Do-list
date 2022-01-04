@@ -9,7 +9,7 @@ class Task(models.Model):
     status_choices = [('new', 'Новая'), ('in_progress', 'В процессе'), ('done', 'Сделано')]
     status = models.CharField(max_length=200, null=False, blank=False, choices=status_choices, verbose_name="Статус",
                               default="new")
-    text = models.TextField(max_length=2000, null=True, blank=True, verbose_name="Описание")
+    description = models.TextField(max_length=2000, null=True, blank=True, verbose_name="Описание")
     date_deadline = models.DateField(null=True, blank=True, default=None)
 
     def __str__(self):

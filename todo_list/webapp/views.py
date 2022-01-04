@@ -32,8 +32,8 @@ def create_view(request):
         date_deadline = request.POST.get('date_deadline')
         if not date_deadline:
             return HttpResponseNotFound("date mistake has been occurred, it is need to input date")
-        text = request.POST.get('text')
-        task = Task(task=task_text, status=status, date_deadline=date_deadline, text=text)
+        description = request.POST.get('description')
+        task = Task(task=task_text, status=status, date_deadline=date_deadline, description=description)
         task.save()
         return redirect("index")
 
