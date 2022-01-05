@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponseNotFound
 from django.urls import reverse
 
-from webapp.models import Task
+from webapp.models import Task, STATUS_CHOICES
 
 
 def task_view(request):
@@ -23,7 +23,7 @@ def delete_view(request, pk):
 
 def create_view(request):
     if request.method == 'GET':
-        select_status = Task.status_choices
+        select_status = STATUS_CHOICES
         context = {'selection': select_status}
         return render(request, 'create.html', context)
     else:
