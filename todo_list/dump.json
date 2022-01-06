@@ -208,5 +208,25 @@
         "description": "sdfg sdf gsdf gds fg",
         "date_deadline": "2022-01-20"
     }
+},
+{
+    "model": "webapp.task",
+    "pk": 51,
+    "fields": {
+        "task": "12 12 12",
+        "status": "new",
+        "description": "asdfa sdf sa dsf",
+        "date_deadline": "2022-01-21"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 52,
+    "fields": {
+        "task": "asdf",
+        "status": "new",
+        "description": "sadf",
+        "date_deadline": "2022-01-27"
+    }
 }
 ]
