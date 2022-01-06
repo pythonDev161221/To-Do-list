@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Task update{% endblock %}
+
+  {% block nav %}
+<li class="nav-item">
+  <a class="nav-link active" href="{% url "task_detail" task.pk %}">Detail</a>
+</li>
+  {% endblock %}
+
+{% block content %}
+    <form action="{% url "task_create" %}" method="post">
+        {% include "partial/form.html"  %}
+    </form>
+{% endblock %}
