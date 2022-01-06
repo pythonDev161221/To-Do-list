@@ -5,7 +5,7 @@
     "fields": {
         "task": "do hw",
         "status": "new",
-        "text": "Сделать домашнюю работу",
+        "description": "Сделать домашнюю работу",
         "date_deadline": "2021-12-23"
     }
 },
@@ -15,7 +15,7 @@
     "fields": {
         "task": "prepare to exam",
         "status": "new",
-        "text": "Подготовиться к экзамену",
+        "description": "Подготовиться к экзамену",
         "date_deadline": "2022-01-08"
     }
 },
@@ -25,7 +25,7 @@
     "fields": {
         "task": "1111111111",
         "status": "new",
-        "text": "11111111 11111 111111",
+        "description": "11111111 11111 111111",
         "date_deadline": "2022-01-01"
     }
 },
@@ -35,7 +35,7 @@
     "fields": {
         "task": "2222222",
         "status": "in_progress",
-        "text": "222222222",
+        "description": "222222222",
         "date_deadline": "2022-01-01"
     }
 },
@@ -45,7 +45,7 @@
     "fields": {
         "task": "333333333",
         "status": "in_progress",
-        "text": "33333333 333333",
+        "description": "33333333 333333",
         "date_deadline": "2022-01-04"
     }
 },
@@ -55,7 +55,7 @@
     "fields": {
         "task": "4444",
         "status": "done",
-        "text": "44444444",
+        "description": "44444444",
         "date_deadline": "2022-01-01"
     }
 },
@@ -65,7 +65,7 @@
     "fields": {
         "task": "555555",
         "status": "new",
-        "text": "555 5 5 5 555  ",
+        "description": "555 5 5 5 555  ",
         "date_deadline": "2022-01-03"
     }
 },
@@ -75,7 +75,7 @@
     "fields": {
         "task": "6666666",
         "status": "new",
-        "text": "6666666666666666",
+        "description": "6666666666666666",
         "date_deadline": "2022-01-03"
     }
 },
@@ -85,7 +85,7 @@
     "fields": {
         "task": "7777777",
         "status": "new",
-        "text": "777777 7777777",
+        "description": "777777 7777777",
         "date_deadline": "2022-01-03"
     }
 },
@@ -95,7 +95,7 @@
     "fields": {
         "task": "888888888",
         "status": "new",
-        "text": "888888 88888888",
+        "description": "888888 88888888",
         "date_deadline": "2022-01-03"
     }
 },
@@ -105,8 +105,108 @@
     "fields": {
         "task": "999999",
         "status": "new",
-        "text": "99999",
+        "description": "99999",
         "date_deadline": "2022-01-03"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 41,
+    "fields": {
+        "task": "10101010",
+        "status": "in_progress",
+        "description": "1010 1010",
+        "date_deadline": "2022-01-05"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 42,
+    "fields": {
+        "task": "12 12 12",
+        "status": "new",
+        "description": "asdfa sdf sa dsf",
+        "date_deadline": null
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 43,
+    "fields": {
+        "task": "13 13 13 ",
+        "status": "in_progress",
+        "description": "xfg vc sf vs g t",
+        "date_deadline": null
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 44,
+    "fields": {
+        "task": "14 14 14 ",
+        "status": "new",
+        "description": "dfg sdf gsdf gdsf g",
+        "date_deadline": null
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 45,
+    "fields": {
+        "task": "qwe",
+        "status": "new",
+        "description": "qoj",
+        "date_deadline": null
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 46,
+    "fields": {
+        "task": "15 15 15",
+        "status": "new",
+        "description": "sfg df gdf gfdg",
+        "date_deadline": null
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 47,
+    "fields": {
+        "task": "16 16  16",
+        "status": "new",
+        "description": "wr twer wer ewr tewr tewrt",
+        "date_deadline": "2022-01-13"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 48,
+    "fields": {
+        "task": "12 12 12",
+        "status": "new",
+        "description": "asdfa sdf sa dsf",
+        "date_deadline": "2022-01-06"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 49,
+    "fields": {
+        "task": "12 12 12",
+        "status": "new",
+        "description": "asdfa sdf sa dsf",
+        "date_deadline": "2022-01-28"
+    }
+},
+{
+    "model": "webapp.task",
+    "pk": 50,
+    "fields": {
+        "task": "17 17  17",
+        "status": "new",
+        "description": "sdfg sdf gsdf gds fg",
+        "date_deadline": "2022-01-20"
     }
 }
 ]
